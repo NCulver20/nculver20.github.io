@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Cloud Camera Service</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+
+    <link href="styles/main.css" rel="stylesheet" type="text/css">    <!--
+
+      Include the main three.js script.
+
+      The global variable THREE will be
+      available for use in any scripts
+      loaded after this one.
+
+    -->
+
+    <script src="js/three.min.js"></script>
+    <!--
+
+    Include the OrbitControls script.
+
+    This must be included AFTER the three.js script as it
+    needs to use the global THREE variable
+
+  -->
+
+  <script src="js/FBXLoader.js"></script>
+  <script src='js/inflate.min.js'></script>
+  <!--
+
+    Include the GLTFLoader script. This also needs to be loaded after the three.js script
+
+  -->
+
+  <script src="js/OrbitControls.js"></script>
+
+  </head>
+
+  <body>
+
+     <div id="scene-container">
+     <div id="level1"></div>
+
+      <!-- This div will hold our scene-->
+    </div>
+
+    <footer>
+
+      <!--
+        Finally, include the script that
+        runs your three.js app.
+        <script src="js/app_OBJ.js"></script>
+      -->
+
+      <script src="js/App_FBX.js"></script>
+
+    </footer>
+
+  </body>
+</html>
